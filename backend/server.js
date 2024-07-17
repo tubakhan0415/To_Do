@@ -38,7 +38,7 @@ const upload = multer({
 }).single('file');
 
 mongoose
-    .connect('mongodb://localhost:27017/todo', {
+    .connect('mongodb+srv://TubaKhan:Tub%400415@cluster0.busbjcx.mongodb.net/todo', {
         useNewUrlParser: true,
         useUnifiedTopology: true,
     })
